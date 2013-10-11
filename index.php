@@ -5,7 +5,7 @@
 </head>
 <body>
 	<?php
-		//URL: http://localhost:8000/index.php?name=Kevin&amp;names=Yank
+		//URL: http://localhost:8000/index.php?name=Kevin&names=Yank
 		$name = $_GET['name'];
 		$names = $_GET['names'];
 		echo 'ola ' . $name . ' o ' . $names . ' td blz?';
