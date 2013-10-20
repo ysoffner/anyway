@@ -1,7 +1,7 @@
 LESS inovação de framework para CSS
 ===========================
 ***
-* ####**Indice**
+* **Indice**
 	* [Saiba um pouco sobre LESS](#about-less)
 	* [Onde Funciona](#where-run)
 	* [Vantagens](#advantages)
@@ -13,18 +13,19 @@ LESS inovação de framework para CSS
 	* [Referencias](#references)
 
 
-<h2 id="about-less">Saiba um pouco sobre LESS</h2>
-`LESS CSS`[^sign-less] é um framework de escrita com o ojetivo de otimizar a escrita de códigos na linguagem CSS, fato este que necessariamente implica na diminuição da quantidade de código escrito.
-:	Menos código escrito significa mais performance na renderização das páginas, o que implica em maior velocidade na exibição da informação para o usuário final.
+<h2 id="about-less"> Saiba um pouco sobre LESS </h2>
+`LESS CSS`[^1] é um framework de escrita com o ojetivo de otimizar a escrita de códigos na linguagem CSS, fato este que necessariamente implica na diminuição da quantidade de código escrito.
+
+Menos código escrito significa mais performance na renderização das páginas, o que implica em maior velocidade na exibição da informação para o usuário final.
 
 
 
 <h2 id="where-run">Onde funciona</h2>
-Uma característica interessante do `LESS CSS` é que este funciona tanto do lado do `cliente` quanto do lado do `servidor` (neste último utilizando **Node.js**[^sign-nodejs] e __Rhino__[^sign-rhino]). Assim, podemos “escolher” o ambiente para renderização do código LESS.
+Uma característica interessante do `LESS CSS` é que este funciona tanto do lado do `cliente` quanto do lado do `servidor` (neste último utilizando **Node.js**[^2] e __Rhino__[^3]). Assim, podemos “escolher” o ambiente para renderização do código LESS.
 
 
 <h2 id="advantages">Vantagens</h2>
-A vantagem de ser um `Pré Processador`[^sign-preprocessador], é de poder minimizar o trabalho manual e facilitar o entedimento, assim como o `LESS` existe tambem outras frameworks tais como `SASS` e `STYLUS`.
+A vantagem de ser um `Pré Processador`[^4], é de poder minimizar o trabalho manual e facilitar o entedimento, assim como o `LESS` existe tambem outras frameworks tais como `SASS` e `STYLUS`.
 
 Alem de ser <del>foda</del> fácil de estudar, ele aponta onde ocorre o erro. [Ampliar imagem][image]
 
@@ -128,11 +129,11 @@ a {
 ***
 <h3 id="imports">Import</h3>
 
-:	[Arquivo unico][ref3]
+[Arquivo unico][ref3]
 ```
 lessc /media/Templates/Bootstrap/less/bootstrap.less /home/soffner/Documents/bootstrap.css
 ```
-:	[Arquivo compilado][ref4]
+[Arquivo compilado][ref4]
 
 
 
@@ -165,8 +166,7 @@ E esse para compilar (o transforma em css)
 lessc styles.less > styles.css
 ```
 
-:	`styles.less` é onde o arquivo se encontra
-:	`styles.css` é o caminho onde será criado
+`styles.less` é onde o arquivo se encontra, `styles.css` é o caminho onde será criado
 
 
 ***
@@ -185,7 +185,6 @@ lessc styles.less > styles.css
 
 >>*[Moar!! Exemplos][ref8]*
 
-
 >Markdown
 >>*[Daring Fireball][ref2]*
 
@@ -194,10 +193,14 @@ lessc styles.less > styles.css
 
 ***
 ### Termos
-[^sign-less]: **LESS**: *é um termo da lingua inglesa que designa “menos – menor quantidade”.*
-[^sign-nodejs]: **Node-js:** *é um interpretador JavaScript do lado do servidor que altera a noção de como um servidor deveria funcionar. Seu objetivo é possibilitar que um programador crie aplicativos altamente escaláveis e escreva código que manipule dezenas de milhares de conexões simultâneas em uma, e somente uma, máquina física.*
-[^sign-rhino]: **Rhino:** *is an open-source implementation of JavaScript written entirely in Java. It is typically embedded into Java applications to provide scripting to end users.*
-[^sign-preprocessador]: **Pré-processador:** *é um programa que recebe texto e efectua conversões léxicas nele. As conversões podem incluir substituição de macros, inclusão condicional e inclusão de outros ficheiros.*
+
+[^1]: **LESS**: *é um termo da lingua inglesa que designa “menos – menor quantidade”.*
+
+[^2]: **Node-js:** *é um interpretador JavaScript do lado do servidor que altera a noção de como um servidor deveria funcionar. Seu objetivo é possibilitar que um programador crie aplicativos altamente escaláveis e escreva código que manipule dezenas de milhares de conexões simultâneas em uma, e somente uma, máquina física.*
+
+[^3]: **Rhino:** *is an open-source implementation of JavaScript written entirely in Java. It is typically embedded into Java applications to provide scripting to end users.*
+
+[^4]: **Pré-processador:** *é um programa que recebe texto e efectua conversões léxicas nele. As conversões podem incluir substituição de macros, inclusão condicional e inclusão de outros ficheiros.*
 
 [ref1]: http://fabriciosanchez.com.br/2/less-css-inicio-meio-e-fim-conceitos-iniciais/ "Blog"
 [ref2]: http://daringfireball.net/projects/markdown/ "Markdown"
